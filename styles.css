@@ -1,0 +1,100 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and container styles */
+body {
+    background-color: #f0f4f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background-color: #4a707a; /* Grey-blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #394d59; /* Darker shade for accent */
+}
+
+/* Section styles */
+main section {
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.king {
+    background-color: #708a81; /* Grey-green */
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    border-top: 3px solid #4a707a;
+}
+
+.lord-commander {
+    background-color: #c5d2d3; /* Light grey-blue */
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.kingsguard {
+    background-color: #d9e1e3;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.council {
+    background-color: #e0e8e9; /* Lighter grey-blue */
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.king h2, .lord-commander h2, .kingsguard h2, .council h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.king .profile, .lord-commander .profile, .kingsguard .profile, .council .profile {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.king .profile img, .lord-commander .profile img, .kingsguard .profile img, .council .profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #394d59;
+}
+
+.king .profile p, .lord-commander .profile p, .kingsguard .profile p, .council .profile p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #394d59;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid #4a707a;
+}
+
+footer p {
+    font-size: 0.9em;
+}
